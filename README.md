@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load data with proper type handling
+# Load data with proper type handling 
 try:
     df = pd.read_csv('dataset.csv', 
                     dtype={
